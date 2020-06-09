@@ -9,6 +9,16 @@
   tags:
     - chromeRH7
 
+# Make sure following RHEL Repos Enabled
+# subscription-manager repos --enable rhel-7-server-extras-rpms
+# subscription-manager repos --enable rhel-7-server-optional-rpms
+
+- name: Install chrome
+  yum:
+    name: google-chrome
+    state: present
+    disable_gpg_check: yes
+
 #- name: Get EPEL repo
 #  get_url:
 #    url: "{{ epel_path }}/{{ epel_rpm }}"
