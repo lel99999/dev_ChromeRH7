@@ -15,7 +15,7 @@
 
 - name: Install chrome
   yum:
-    name: google-chrome
+    name: google-chrome-stable_current_*
     state: present
     disable_gpg_check: yes
 
