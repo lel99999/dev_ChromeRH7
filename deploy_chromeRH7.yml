@@ -35,9 +35,13 @@
 #       name: "@Development Tools"
 #       state: present
 #     shell:  yum groupinstall "Development Tools" -y
+    - name: Remove Firefox browser
+      yum:
+        name: firefox
+        state: absent
 
   roles:
-    - chromeRH7
+#    - chromeRH7
 #   - emacsRH7
 #   - epel7
 #   - python2RH7
