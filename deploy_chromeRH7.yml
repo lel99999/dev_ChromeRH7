@@ -41,7 +41,7 @@
         state: absent
 
   roles:
-#    - chromeRH7
+     - chromeRH7
 #   - emacsRH7
 #   - epel7
 #   - python2RH7
