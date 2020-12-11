@@ -15,6 +15,11 @@ $sudo yum -y install redhat-lsb libXScrnSaver
 $sudo yum -y localinstall google-chrome-stable_current_x86_64.rpm
 ```
 
+#### Install Latest EPEL 7
+```
+$sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+```
+
 
 
 
