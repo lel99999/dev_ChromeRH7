@@ -9,7 +9,7 @@ Create policy json file (i.e. chrome.json) and copy to /etc/opt/chrome/policies/
 
 #### Add RHEL 7 Repo for libvulkan dependency errors
 ```
-### Addresses libvulkan.so.1 Error
+### Addresses libvulkan.so.1 Error (vulkan.x86_64 0:1.1.97.0-1.el7)
 $sudo /usr/bin/subscription-manager repos --enable=rhel-7-server-e4s-optional-rpms
 
 
